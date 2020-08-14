@@ -1,0 +1,1 @@
+window.alert("Error 404! Page Not found!");

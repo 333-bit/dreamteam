@@ -1,0 +1,145 @@
+/*
+	All Colors:
+	#222831; dark blue
+	#393e46; grey
+	#00adb5; light blue
+	#eeeeee; cream white
+
+	All fonts:
+	font-family: 'Cookie', cursive;
+	font-family: 'Poppins', sans-serif;
+	font-family: 'Roboto', sans-serif;
+*/
+
+/* CSS for body html head and etc. */
+
+html, body {
+	padding: 0;
+	margin: 0;
+	width: 100%;
+	height: 100%;
+}
+
+body {
+	background: #eeeeee;
+}
+
+/* ---x End of work with body html head and etc. x--- */
+
+/* Header CSS */
+
+.header {
+	height: 20%;
+	width: 100%;
+	background: #555;
+}
+
+/* Css For First Line of Header */
+
+.lang {
+	width: 100%;
+	height: 20%;
+	background: #eee;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+
+.langcont {
+	width: 10%;
+	height: 100%;
+	display: flex;
+	align-items: center;
+}
+
+.langanchor {
+	font-family: 'Roboto', sans-serif;
+	font-size: 20px;
+	color: #222831;
+	text-decoration: none;
+}
+
+.langanchor:hover {
+	color: #00adb5;
+	transition: 0.5s all;
+}
+
+.line {
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+/* ---x End of work with First Line of Header x--- */
+
+/* ---x Css for Second Line of Header x--- */
+
+.all {
+	width: 100%;
+	height: 80%;
+	background: #222831;
+	display: flex;
+}
+
+/* Css for Brand Part */
+
+.brand {
+	height: 100%;
+	width: 20%;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+
+.brand a {
+	text-decoration: none;
+	color: #eee;
+	font-family: 'Cookie', cursive;
+	font-size: auto;
+}
+
+.brand a:hover {
+	color: #00adb5;
+	transition: 0.5s all;
+}
+
+.brand a h1 {
+	font-size: 60px;
+}
+
+.anchs {
+	height: 100%;
+	width: 80%;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+
+.anchs-div {
+	height: 100%;
+	width: 25%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-right: 5%;
+}
+
+.anchs-a {
+	font-size: 20px;
+	text-decoration: none;
+	color: #eeeeee;
+	padding: 10px;
+}
+
+.anchs-a:hover {
+	color: #00adb5;
+	transition: 0.5s all;
+}
+
+/* ---x End of work with Brand Part x--- */
+
+/* ---x End of work with Second Line of Header x-- */
+
+/* ---x End of work with Header x--- */
